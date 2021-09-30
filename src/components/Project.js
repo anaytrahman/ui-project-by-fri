@@ -11,6 +11,11 @@ import drMask from "../images/dr-mask.jfif";
 import drTest from "../images/dr-test.jfif";
 import drDp1 from "../images/dr-dp2.jfif";
 import drDp2 from "../images/doctor-dp.png";
+
+//icon footer
+import googlePlay from "../images/google-olay-icon.png";
+import appleIcon from "../images/apple-icon.png";
+import onlineDot from "../images/online-dot.png";
 const Project = () => {
   return (
     <>
@@ -50,7 +55,7 @@ const Project = () => {
                 <div className="number-wrapper">
                   <p>Call Now</p>
                 </div>
-                <div className="login-btn">
+                <div className="login-btn-wrapper">
                   <button className="loginBtn btnsecond btns"> Login</button>
                 </div>
               </div>
@@ -65,7 +70,7 @@ const Project = () => {
                 <div>
                   <h2>
                     Consult a doctor anytime, anywhere by{" "}
-                    <Link to="">Video call</Link>
+                    <Link className="video-call" to="">Video call</Link>
                   </h2>
                 </div>
                 <div>
@@ -76,11 +81,9 @@ const Project = () => {
                 </div>
                 <div className="button-wrapper">
                   <button className="mybtn btnBase btns">
-                    {" "}
                     Ask A Doctor online
                   </button>
                   <button className="mybtn btnsecond btns">
-                    {" "}
                     Unlimited Chat
                   </button>
                 </div>
@@ -91,6 +94,16 @@ const Project = () => {
               <div className="img-wrapper">
                 <img src={doctor} alt="dr" />
               </div>
+              <div className="doctors-online-box-wrapper">
+                <div className="green-dot-wrapper">
+                  <img src={onlineDot} alt="img" />
+                </div>
+                <div>
+                <span>
+                  <strong>2110 Doctors Online </strong>
+                </span>
+                </div>
+              </div>
             </div>
           </section>
         </div>
@@ -98,9 +111,9 @@ const Project = () => {
         {/* /////////////////////////////////////////////// */}
 
         <section className="trust-us-section">
-          <div className="heading-wrapper div-align">
+          <div className="heading-wrapper div-align ">
             <h2>Why should trust us ?</h2>
-            <h2>Get Know Abouse us</h2>
+            <h3>Get Know Abouse us</h3>
           </div>
           <div className="boxes-wrapper">
             {/* box */}
@@ -247,12 +260,11 @@ const Project = () => {
                 <div className="custom-control custom-radio">
                   <input
                     type="radio"
-                  
                     className="custom-control-input"
                     id="chat"
                     name="example1"
                     value="customEx"
-                    defaultChecked 
+                    defaultChecked
                   />
                 </div>
                 <label
@@ -494,7 +506,7 @@ const Project = () => {
           </div>
           {/* articles content */}
           <div className="articles-wrapper">
-          {/* article box for wrapping  */}
+            {/* article box for wrapping  */}
             <div className="article-box">
               <div
                 className="article-img"
@@ -502,27 +514,39 @@ const Project = () => {
                   backgroundImage: `url(${patient1})`,
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
-                }}>
+                }}
+              >
                 <div>
-                 <button className="all-type-dr color-white bg-grey">Health</button>
+                  <button className="all-type-dr color-white bg-grey">
+                    Health
+                  </button>
                 </div>
-                 {/* total records */}
-               <div className="articles-records-wrapper">
-                        <div className="date-wrapper">
-                              <span> <i class="bi bi-calendar-date-fill"></i></span>  
-                              <span>15 June</span>
-                        </div>
-                        <div className="comment-wrapper">
-                              <span> <i class="bi bi-chat-dots"></i></span>  
-                              <span>54</span>
-                        </div>
-                        <div className="views-wrapper">
-                              <span> <i class="bi bi-eye-fill"></i></span>  
-                              <span>1.9K</span>
-                        </div>
-               </div>
+                {/* total records */}
+                <div className="articles-records-wrapper">
+                  <div className="date-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-calendar-date-fill"></i>
+                    </span>
+                    <span>15 June</span>
+                  </div>
+                  <div className="comment-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-chat-dots"></i>
+                    </span>
+                    <span>54</span>
+                  </div>
+                  <div className="views-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-eye-fill"></i>
+                    </span>
+                    <span>1.9K</span>
+                  </div>
+                </div>
               </div>
-              
+
               {/* text for the articles */}
               <div className="article-texts-wrapper">
                 <h4> How to decrease the level of adipose in the body</h4>
@@ -554,8 +578,8 @@ const Project = () => {
               </div>
             </div>
 
-              {/* article box for wrapping  */}
-              <div className="article-box">
+            {/* article box for wrapping  */}
+            <div className="article-box">
               <div
                 className="article-img"
                 style={{
@@ -564,31 +588,44 @@ const Project = () => {
                   backgroundRepeat: "no-repeat",
                 }}
               >
-               
                 <div>
-                 <button className="all-type-dr color-white bg-grey">Infectous</button>
+                  <button className="all-type-dr color-white bg-grey">
+                    Infectous
+                  </button>
                 </div>
-                 {/* total records */}
-               <div className="articles-records-wrapper">
-                        <div className="date-wrapper">
-                              <span> <i class="bi bi-calendar-date-fill"></i></span>  
-                              <span>15 June</span>
-                        </div>
-                        <div className="comment-wrapper">
-                              <span> <i class="bi bi-chat-dots"></i></span>  
-                              <span>54</span>
-                        </div>
-                        <div className="views-wrapper">
-                              <span> <i class="bi bi-eye-fill"></i></span>  
-                              <span>1.9K</span>
-                        </div>
-               </div>
+                {/* total records */}
+                <div className="articles-records-wrapper">
+                  <div className="date-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-calendar-date-fill"></i>
+                    </span>
+                    <span>15 June</span>
+                  </div>
+                  <div className="comment-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-chat-dots"></i>
+                    </span>
+                    <span>54</span>
+                  </div>
+                  <div className="views-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-eye-fill"></i>
+                    </span>
+                    <span>1.9K</span>
+                  </div>
+                </div>
               </div>
               {/* text for the articles */}
               <div className="article-texts-wrapper">
                 <h4>COVID-19 vaccines and people with cronic contidion</h4>
-                <p>COVID-19 Vaccines is one of the highest priorities in this current Pandemic Situaction. all the countries arround
-                the world are rolling out COVID-19 vaccines. the currently available COVID-19 vaccines.
+                <p>
+                  COVID-19 Vaccines is one of the highest priorities in this
+                  current Pandemic Situaction. all the countries arround the
+                  world are rolling out COVID-19 vaccines. the currently
+                  available COVID-19 vaccines.
                 </p>
               </div>
               {/* doctor names*/}
@@ -613,8 +650,8 @@ const Project = () => {
               </div>
             </div>
 
-              {/* article box for wrapping  */}
-              <div className="article-box">
+            {/* article box for wrapping  */}
+            <div className="article-box">
               <div
                 className="article-img"
                 style={{
@@ -622,31 +659,49 @@ const Project = () => {
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                 }}
-              >   
+              >
                 <div>
-                 <button className="all-type-dr color-white bg-grey">Neurology</button>
+                  <button className="all-type-dr color-red  bg-grey">
+                    Neurology
+                  </button>
                 </div>
-                 {/* total records */}
-               <div className="articles-records-wrapper">
-                        <div className="date-wrapper">
-                              <span> <i class="bi bi-calendar-date-fill"></i></span>  
-                              <span>15 June</span>
-                        </div>
-                        <div className="comment-wrapper">
-                              <span> <i class="bi bi-chat-dots"></i></span>  
-                              <span>54</span>
-                        </div>
-                        <div className="views-wrapper">
-                              <span> <i class="bi bi-eye-fill"></i></span>  
-                              <span>1.9K</span>
-                        </div>
-               </div>
+                {/* total records */}
+                <div className="articles-records-wrapper">
+                  <div className="date-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-calendar-date-fill"></i>
+                    </span>
+                    <span>15 June</span>
+                  </div>
+                  <div className="comment-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-chat-dots"></i>
+                    </span>
+                    <span>54</span>
+                  </div>
+                  <div className="views-wrapper">
+                    <span>
+                      {" "}
+                      <i class="bi bi-eye-fill"></i>
+                    </span>
+                    <span>1.9K</span>
+                  </div>
+                </div>
               </div>
               {/* text for the articles */}
               <div className="article-texts-wrapper">
-                <h4> Current Staet of Disparities in  Neuroligy and Neurologic Training</h4>
-                <p>Medical School taught us ask "men, women, of both?", but then we become Neurology residents..
-                now what? Scrolling through the lenghty list of this year's presentations of the american Academy. 
+                <h4>
+                  {" "}
+                  Current Staet of Disparities in Neuroligy and Neurologic
+                  Training
+                </h4>
+                <p>
+                  Medical School taught us ask "men, women, of both?", but then
+                  we become Neurology residents.. now what? Scrolling through
+                  the lenghty list of this year's presentations of the american
+                  Academy.
                 </p>
               </div>
               {/* doctor names*/}
@@ -672,41 +727,129 @@ const Project = () => {
             </div>
             {/* buttons for more articles */}
             <div className="read-more-articles-wrapper about-text-wrapper-all mt-5">
-              <button className="mybtn btnBase btns">
-                Read More Articles
-              </button>
+              <button className="mybtn btnBase btns">Read More Articles</button>
             </div>
           </div>
         </section>
       </div>
-       
-        {/* ask question section  */}
-         <section className="asked-question-section">
-         <div className="about-text-wrapper about-text-wrapper-all">
-            <h2>Frequently Asked Questions </h2>
+
+      {/* ask question section  */}
+      <section className="asked-question-section">
+        <div className="about-text-wrapper about-text-wrapper-all">
+          <h2>Frequently Asked Questions </h2>
+          <p>
+            Artilce is a part or segment of something joined to other parts, or,
+            in combination, forming a structured set.
+          </p>
+        </div>
+      </section>
+
+      {/* footer section last */}
+      <footer className="footer">
+        {/* about website logo heading */}
+        <div className="about-webpage-wrapper">
+          <div className="logo-img-wrapper"></div>
+          <div className="text-wrapper">
             <p>
-              Artilce is a part or segment of something joined to other parts,
-              or, in combination, forming a structured set.
+              Talk with a doctor using our highly secured end-to-end encrypted.
             </p>
           </div>
-         </section>
-          
-          {/* footer section last */}
-          <footer className="footer">
-                  {/* about website logo heading */}
-                  <div className="about-webpage-wrapper">
-                        <div className="logo-img-wrapper">
-                        </div>
-                        <div className="text-wrapper">
-                            <p>Talk with a doctor using our highly secured end-to-end encrypted.</p>
-                        </div>
-                        {/* button for apps store */}
-                        <div className="app-store-wrapper">
-                              <div className="apps-btn-wrapper">
-                              </div>
-                        </div>
-                  </div>
-          </footer>
+          {/* button for apps store */}
+          <div className="app-store-wrapper">
+            <NavLink to="">
+              <div className="apps-btn-wrapper applelogo">
+                <div className="social-icon-wrapper">
+                  {/*   googlePlay*/}
+                  <span>
+                    <img src={appleIcon} alt="google-icon" />
+                  </span>
+                </div>
+                <div className="social-name-wrapper">
+                  <span className="small-tex">Download on the</span>
+                  <span className="app">Apple Store</span>
+                </div>
+              </div>
+            </NavLink>
+            {/* google play */}
+            <NavLink to="">
+              <div className="apps-btn-wrapper google-playlogo">
+                <div className="social-icon-wrapper">
+                  {/*   googlePlay*/}
+                  <span>
+                    <img src={googlePlay} alt="google-icon" />
+                  </span>
+                </div>
+                <div className="social-name-wrapper">
+                  <span className="small-tex">Get it from</span>
+                  <span className="app">Google Play</span>
+                </div>
+              </div>
+            </NavLink>
+          </div>
+         
+        </div>
+               {/* other links */}
+
+               <div className="contact-wrapper">
+                      <ul>
+                        <li><NavLink to="">Ask a doctor online</NavLink></li>
+                        <li><NavLink to="">Chat with a doctor </NavLink></li>
+                        <li><NavLink to=""> Phone a doctor </NavLink></li>
+                        <li><NavLink to=""> Video consulation</NavLink></li>
+                        <li><NavLink to="">Online COVID-19 care </NavLink></li>
+                        <li><NavLink to=""> Site map </NavLink></li>
+                        <li><NavLink to="">Physician directory </NavLink></li>
+                        <li><NavLink to="">Book a lab test </NavLink></li>
+                        <li><NavLink to="">MRI/CT scan </NavLink></li>
+                        <li><NavLink to=""> Articles </NavLink></li>
+                        <li><NavLink to="">Answers </NavLink></li>
+                      </ul>
+               </div>
+
+               <div className="important-wrapper">
+                    <ul>
+                      <li> <NavLink to=""> Tools </NavLink></li>
+                      <li> <NavLink to=""> FAQ </NavLink></li>
+                      <li> <NavLink to=""> Blogs </NavLink></li>
+                      <li> <NavLink to=""> Careers </NavLink></li>
+                      <li> <NavLink to=""> Abous us </NavLink></li>
+                      <li> <NavLink to=""> Terms </NavLink></li>
+                      <li> <NavLink to=""> Privacy </NavLink></li>
+                      <li> <NavLink to=""> Ads policy </NavLink></li>
+                      <li> <NavLink to=""> Press </NavLink></li>
+                    </ul>
+               </div>
+
+               <div className="get-wrapper">
+                    <ul>
+                      <li> <NavLink to=""> Get docta app </NavLink></li>
+                      <li> <NavLink to=""> Get API </NavLink></li>
+                      <li> <NavLink to=""> Get widget </NavLink></li>
+                      <li> <NavLink to=""> Medical review team </NavLink></li>
+                      <li> <NavLink to=""> Symptom Checker </NavLink></li>
+                      <li> <NavLink to=""> Deals & offer </NavLink></li>
+                      <li> <NavLink to=""> Support </NavLink></li>
+                      <li> <NavLink to=""> Help </NavLink></li>
+                   
+                    </ul>
+               </div>
+
+               <div className="extra-stuff-wrapper">
+                    <ul>
+                  
+                      <li> <NavLink to=""> For empluers </NavLink></li>
+                      <li> <NavLink to=""> For Telegram </NavLink></li>
+                      <li> <NavLink to=""> For slack teams </NavLink></li>
+                      <li> <NavLink to=""> For MS team </NavLink></li>
+                      <li> <NavLink to=""> Sucess stories </NavLink></li>
+                      <li> <NavLink to=""> #docta100hrs </NavLink></li>  
+                      <li> <NavLink to=""> Medical cases </NavLink></li>
+                      <li> <NavLink to=""> Contact </NavLink></li>  
+                   
+                    </ul>
+               </div>
+
+      </footer>
     </>
   );
 };

@@ -6,17 +6,21 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 $baseColor: #72569d;
-
+$colorWhite: white;
 $textBaseColor: #1e1451;
 
 $bgColorWhite: white;
-$linerGrad: linear-gradient(196deg, #fff3ea, transparent);
+$linerGrad: linear-gradient(325deg, #fff3ea, transparent);
 
 li {
   list-style: none;
   a {
     text-decoration: none;
   }
+}
+
+a {
+  text-decoration: none;
 }
 
 @mixin flexbox {
@@ -42,13 +46,15 @@ li {
 }
 .btnBase {
   background: $baseColor;
-  color: white;
+  color: $colorWhite;
 }
 .loginBtn {
-  padding: 8px 18px;
+  padding: 4px 18px;
+  margin: 1px 1px 0 1px;
   border: none;
   border-radius: 13px;
-  background: white;
+  background: $colorWhite;
+  margin-left: 18px;
 }
 
 .main-container {
@@ -88,6 +94,7 @@ li {
       //dashboard wrapper start
       .dashboard-section {
         @include flexbox;
+        padding-bottom: 46px;
         .details-action-container {
           width: 70%;
           .details-action-wrapper {
@@ -95,6 +102,10 @@ li {
             justify-content: space-around;
             padding: 0 1rem;
             margin: 0 auto;
+            .video-call{
+              color: $baseColor;
+              text-decoration: underline !important;
+            }
             h2 {
               font-size: 50px;
               font-weight: 700;
@@ -107,11 +118,30 @@ li {
 
         .dr-image-wrapper {
           width: 22%;
+          position: relative;
           .img-wrapper {
             max-width: 238px;
             img {
-              width: 100%;
+              max-height: 415px;
             }
+          }
+
+          .doctors-online-box-wrapper {
+            background: white;
+            width: 153px;
+            position: absolute;
+            bottom: 24rem;
+            right: 10rem;
+            border-radius: 6px;
+            padding: 7px 13px;
+            @include flexbox;
+            span{
+              font-size: 10px;
+              margin-left: 8px;
+            }
+           img{
+             max-height: 15px;
+           }
           }
         }
       }
@@ -121,6 +151,7 @@ li {
     .trust-us-section {
       .heading-wrapper {
         text-align: center;
+        margin: 4rem 0
       }
 
       .boxes-wrapper {
@@ -132,6 +163,10 @@ li {
           border-radius: 21px;
           padding: 19px;
           margin: 0 15px;
+          h3{
+            font-size: 20px;
+            font-weight: 600;
+          }
           & > * {
             margin: 10px 0;
           }
@@ -226,7 +261,7 @@ li {
           background-color: white;
           text-align: center;
           padding: 10px;
-          margin: 5px 5px;
+          margin: 13px;
           &:hover {
             opacity: 80%;
           }
@@ -248,14 +283,14 @@ li {
           width: 30%;
           margin: 0 10px;
           position: relative;
-       
+
           .article-img {
             height: 250px;
             border-radius: 8px 8px 0 0;
           }
           //articles records
-          .articles-records-wrapper{
-            background-color: white;
+          .articles-records-wrapper {
+            background-color: $colorWhite;
             height: 35px;
             max-width: 187px;
             position: absolute;
@@ -264,10 +299,10 @@ li {
             border-radius: 4px;
             padding: 2px 13px;
             @include flexbox;
-            &>*{
+            & > * {
               margin: 0 5px;
             }
-            span{
+            span {
               font-size: 10px;
               margin: 0px 3px;
             }
@@ -275,6 +310,11 @@ li {
           .article-texts-wrapper {
             padding: 7px 9px;
             padding-bottom: 72px;
+            margin: 1rem 0;
+            h4{
+              margin: 1rem 0;
+              font-size: 20px
+            }
           }
           //doctor
           .doctor-details-wrapper {
@@ -291,12 +331,12 @@ li {
             .about-doctor-wrapper {
               @include flexbox;
               padding: 5px 0px 0px 11px;
-              .doctor-name-position{
+              .doctor-name-position {
                 margin-left: 26px;
               }
               .doctor-dp-wrapper {
                 max-width: 60px;
-                
+
                 img {
                   width: 100%;
                 }
@@ -315,16 +355,56 @@ li {
     }
     ///////////////////footer starts
 
-    .footer {
-      .about-webpage-wrapper {
-      }
-      .app-store-wrapper {
-        .apps-btn-wrapper {
-          width: 20%;
+    //////
+  }
+}
+.footer {
+  padding: 3rem 1rem;
+  @include flexbox;
+  background: $linerGrad;
+  .about-webpage-wrapper {
+      width: 34%;
+    .text-wrapper{
+      width: 80%;
+    }
+    .app-store-wrapper {
+      width: 15%;
+      @include flexbox;
+      .apps-btn-wrapper {
+        width: 9rem;
+        border-radius: 23px;
+        @include flexbox;
+        padding: 4px 11px;
+        & > * {
+          margin: 0px 4px;
+        }
+        .social-icon-wrapper {
+          img {
+            max-height: 25px;
+            filter: invert(1);
+          }
+        }
+        .social-name-wrapper {
+          font-size: 6px;
+          .app {
+            font-size: 11px;
+          }
+          span {
+            display: block;
+          }
         }
       }
     }
   }
+  ul{
+    li{
+      margin: 5px 0;
+      a{
+        color: black;
+      }
+    }
+  }
+ 
 }
 
 //for reuse
@@ -366,10 +446,21 @@ section {
 .all-type-dr {
   border-radius: 5px;
   border: none;
-  margin: 1rem;
-  padding: 5px 10px;
+  margin: 7px;
+  padding: 4px 4px;
+  font-size: 12px;
 }
 
 .bg-grey {
   background-color: #b6b6b691;
+}
+
+.applelogo {
+  background: $baseColor;
+  color: $colorWhite;
+}
+
+.google-playlogo {
+  background: $colorWhite;
+  color: black;
 }
