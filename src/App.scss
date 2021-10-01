@@ -24,7 +24,9 @@ a {
 }
 
 body{
-  background: #f9f7f742;
+
+  background:#f8f5f561;
+
 }
 
 @mixin flexbox {
@@ -183,12 +185,14 @@ body{
     //trust us section ends
     //online chat doctor
     .start-online-chat-section {
+      display: flex;
+    padding: 17px 8px;
       @include flexbox;
       .img-chat-wrapper {
         width: 60%;
         position: relative;
         .img-wrapper {
-          max-width: 300px;
+          max-width: 400px;
           img {
             width: 100%;
           }
@@ -198,14 +202,17 @@ body{
           border-radius: 7px;
           position: absolute;
           font-size: 10px;
-          left: 233px;
-          top: -16px;
-
+          left: 339px;
+          top: 34px;
+         
           .chat {
             padding: 10px;
             background: white;
             border-bottom: solid #d6d1d124;
             @include flexbox;
+            & >*{
+              margin: 0 5px;
+            }
           }
           .dr-chat {
             flex-direction: row-reverse;
@@ -223,14 +230,15 @@ body{
             width: 36%;
             margin: 1rem;
             .label-wrapper {
-              height: 34px;
               width: 100%;
               background: white;
               border-radius: 26px;
-              padding: 2px 10px;
+              padding: 7px 17px;
               cursor: pointer;
               margin: 0 10px;
               box-shadow: 1px 1px 50px 4px rgba(184, 181, 181, 0.493);
+              background: white;
+              //box-shadow: 0px 1px 13px 3px #e9e7e7;
               .icon-and-title-wrapper {
                 @include flexbox;
               }
@@ -245,7 +253,7 @@ body{
         }
         ////// baseColor
         .start-chat-consult-btn-wraper {
-          margin-top: 3rem;
+          
           button {
             background: $baseColor;
             color: white;
@@ -336,7 +344,7 @@ body{
             left: 0;
             bottom: 0;
             border-top: solid 1px #dddddd54;
-            padding-top: 15px;
+            padding-top: 20px;
             .about-doctor-wrapper {
               @include flexbox;
               padding: 5px 0px 0px 11px;
