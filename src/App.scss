@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+body{
+  background: #f9f7f742;
+}
+
 @mixin flexbox {
   display: -webkit-box;
   display: -moz-box;
@@ -102,7 +106,7 @@ a {
             justify-content: space-around;
             padding: 0 1rem;
             margin: 0 auto;
-            .video-call{
+            .video-call {
               color: $baseColor;
               text-decoration: underline !important;
             }
@@ -117,7 +121,7 @@ a {
         }
 
         .dr-image-wrapper {
-          width: 22%;
+          width: 30%;
           position: relative;
           .img-wrapper {
             max-width: 238px;
@@ -130,18 +134,18 @@ a {
             background: white;
             width: 153px;
             position: absolute;
-            bottom: 24rem;
-            right: 10rem;
+            bottom: 26rem;
+            right: 66%;
             border-radius: 6px;
             padding: 7px 13px;
             @include flexbox;
-            span{
+            span {
               font-size: 10px;
               margin-left: 8px;
             }
-           img{
-             max-height: 15px;
-           }
+            img {
+              max-height: 15px;
+            }
           }
         }
       }
@@ -151,7 +155,7 @@ a {
     .trust-us-section {
       .heading-wrapper {
         text-align: center;
-        margin: 4rem 0
+        margin: 4rem 0;
       }
 
       .boxes-wrapper {
@@ -163,7 +167,7 @@ a {
           border-radius: 21px;
           padding: 19px;
           margin: 0 15px;
-          h3{
+          h3 {
             font-size: 20px;
             font-weight: 600;
           }
@@ -190,7 +194,7 @@ a {
           }
         }
         .chat-wrapper {
-          width: 40%;
+          width: 34%;
           border-radius: 7px;
           position: absolute;
           font-size: 10px;
@@ -221,11 +225,12 @@ a {
             .label-wrapper {
               height: 34px;
               width: 100%;
-              background: #d8d8d838;
+              background: white;
               border-radius: 26px;
               padding: 2px 10px;
               cursor: pointer;
               margin: 0 10px;
+              box-shadow: 1px 1px 50px 4px rgba(184, 181, 181, 0.493);
               .icon-and-title-wrapper {
                 @include flexbox;
               }
@@ -240,10 +245,14 @@ a {
         }
         ////// baseColor
         .start-chat-consult-btn-wraper {
+          margin-top: 3rem;
           button {
             background: $baseColor;
             color: white;
           }
+        }
+        .custom-control.custom-radio {
+          margin-top: 8px;
         }
       }
     }
@@ -311,9 +320,9 @@ a {
             padding: 7px 9px;
             padding-bottom: 72px;
             margin: 1rem 0;
-            h4{
+            h4 {
               margin: 1rem 0;
-              font-size: 20px
+              font-size: 20px;
             }
           }
           //doctor
@@ -363,8 +372,8 @@ a {
   @include flexbox;
   background: $linerGrad;
   .about-webpage-wrapper {
-      width: 34%;
-    .text-wrapper{
+    width: 34%;
+    .text-wrapper {
       width: 80%;
     }
     .app-store-wrapper {
@@ -396,15 +405,14 @@ a {
       }
     }
   }
-  ul{
-    li{
+  ul {
+    li {
       margin: 5px 0;
-      a{
+      a {
         color: black;
       }
     }
   }
- 
 }
 
 //for reuse
@@ -463,4 +471,40 @@ section {
 .google-playlogo {
   background: $colorWhite;
   color: black;
+}
+
+//last section question section
+
+.asked-question-section {
+  margin-bottom: 8rem;
+  .faq-img-wrapper {
+   
+    display: flex;
+    .img-faq-sec {
+      position: relative;
+      .round-div {
+        padding-left: 1rem;
+        /* position: relative; */
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background: linear-gradient(
+    309deg, #f8a0ab9e, transparent);
+        position: absolute;
+        top: -1px;
+        left: 6rem;
+        .img-wrapper{
+          // position: absolute;
+          img{
+            max-height: 300px;
+          }
+        }
+      }
+     
+    }
+    .cm-bx-faq {
+      width: 50%;
+    
+    }
+  }
 }

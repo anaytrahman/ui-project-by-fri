@@ -11,11 +11,13 @@ import drMask from "../images/dr-mask.jfif";
 import drTest from "../images/dr-test.jfif";
 import drDp1 from "../images/dr-dp2.jfif";
 import drDp2 from "../images/doctor-dp.png";
-
+//dr faq
+import drFaq from "../images/dr-faq.png";
 //icon footer
 import googlePlay from "../images/google-olay-icon.png";
 import appleIcon from "../images/apple-icon.png";
 import onlineDot from "../images/online-dot.png";
+import ControlledAccordions from "../components/accordion/Accordion";
 const Project = () => {
   return (
     <>
@@ -742,7 +744,21 @@ const Project = () => {
             in combination, forming a structured set.
           </p>
         </div>
+        <div className="faq-img-wrapper">
+           <div className="img-faq-sec cm-bx-faq">
+                  <div className="round-div">
+                  <div className="img-wrapper">
+                        <img src={drFaq} alt="img"/>
+                  </div>
+                  </div>
+                
+           </div>
+           <div className="accordion-faq-sec cm-bx-faq">
+           <ControlledAccordions/>
+           </div>
+        </div>
       </section>
+      
 
       {/* footer section last */}
       <footer className="footer">
