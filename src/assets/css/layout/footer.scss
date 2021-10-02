@@ -1,0 +1,76 @@
+.footer {
+    padding: 3rem 1rem;
+    .logo-wrapper{
+      img{
+        max-height: 63px;
+        margin: 12px 0;
+      }
+    }
+    .footer-inner{
+      @include flexbox;
+      flex-wrap: wrap;
+    }
+    background:linear-gradient(325deg, #f5d6be, transparent);
+    .about-webpage-wrapper {
+      width: 34%;
+      .text-wrapper {
+        width: 80%;
+      }
+      .app-store-wrapper {
+        width: 100%;
+        @include flexbox;
+        .nav-link{
+          padding: 0;
+          width: 50%;
+        }
+        .apps-btn-wrapper {
+          width:100%;
+          border-radius: 23px;
+          @include flexbox;
+          padding-right: 10px;
+          padding-left: 5px;
+          img{
+            width:100%;
+            border-radius: 11px;
+          }
+          & > * {
+            margin: 0px 4px;
+          }
+          .social-icon-wrapper {
+            img {
+              max-height: 25px;
+              filter: invert(1);
+            }
+          }
+          .social-name-wrapper {
+            font-size: 6px;
+            .app {
+              font-size: 11px;
+            }
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+
+    .contact-wrapper,
+    .important-wrapper,
+    .get-wrapper,
+    .extra-stuff-wrapper{
+        width:16%;
+    }
+    ul {
+        @include resetUl;
+      li {
+        margin: 5px 0;
+        a {
+          color: #58417a;
+          font-size: 13px;
+          font-weight: 600;
+          padding: 6px 10px;
+        }
+      }
+    }
+  }

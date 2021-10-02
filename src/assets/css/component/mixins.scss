@@ -1,0 +1,11 @@
+@mixin resetUl {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  @mixin clearFloat {
+    content: '';
+    display: block;
+    clear: both;
+  }
+

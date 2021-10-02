@@ -1,0 +1,387 @@
+.dashboard-section {
+  position: relative;
+    img{
+      width:100%;
+      max-height: calc(100vh - 120px);
+    }
+    .details-action-container {
+      position: absolute;
+      top: 83px;
+      left: 0px;
+      width: 50%;
+      background: #fdf9f594;
+      padding: 22px;
+      box-shadow: 1px 1px 10px 0px #fdf9f673;
+      border-radius: 9px;
+      .details-action-wrapper {
+        justify-content: space-around;
+        padding: 0 1rem;
+        margin: 0 auto;
+        .video-call {
+          color: $baseColor;
+          text-decoration: underline !important;
+        }
+        h2 {
+          font-size: 47px;
+          font-weight: 700;
+          line-height: 66px;
+        }
+        p {
+          margin: 25px 0;
+        }
+      }
+    }
+
+    .dr-image-wrapper {
+      width: 30%;
+      position: relative;
+      .img-wrapper {
+        max-width: 238px;
+        img {
+          max-height: 415px;
+        }
+      }
+
+      .doctors-online-box-wrapper {
+        background: white;
+        width: 153px;
+        position: absolute;
+        top: 20px;
+        right: 100%;
+        border-radius: 6px;
+        padding: 7px 13px;
+        @include flexbox;
+        span {
+          font-size: 10px;
+          margin-left: 8px;
+        }
+        img {
+          max-height: 15px;
+        }
+      }
+    }
+  }
+
+
+   //with boxes
+   .trust-us-section {
+    .heading-wrapper {
+      text-align: center;
+      margin: 4rem 0;
+    }
+
+    .boxes-wrapper {
+      @include flexbox;
+      .bx-col{
+        position: relative;
+      }
+      .boxes {
+        width: 100%;
+        text-align: center;
+        background: #eaeaea3d;
+        border-radius: 21px;
+        padding: 19px;
+       // margin: 0 15px;
+        h3 {
+          font-size: 20px;
+          font-weight: 600;
+        }
+        & > * {
+          margin: 10px 0;
+        }
+        &:hover {
+          background: white;
+        }
+      }
+      .logo-wrapper {
+        img {
+          max-height: 50px;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+  //trust us section ends
+  //online chat doctor
+  .start-online-chat-section {
+    display: flex;
+    padding: 17px 8px;
+    @include flexbox;
+    .img-chat-wrapper {
+      width: 60%;
+      position: relative;
+      .img-wrapper {
+        max-width: 400px;
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+      .chat-wrapper {
+        width: 34%;
+        border-radius: 7px;
+        position: absolute;
+        font-size: 10px;
+        right: 21px;
+        top: 34px;
+
+        .chat {
+          padding: 10px;
+          background: white;
+          border-bottom: solid #d6d1d124;
+          @include flexbox;
+          & > * {
+            margin: 0 5px;
+          }
+        }
+        .dr-chat {
+          flex-direction: row-reverse;
+        }
+      }
+    }
+    //cunsult doctor icon label
+    .consult-doctor-details-wrapper {
+      width: 40%;
+      .input-action-wrapper {
+        @include flexbox;
+        flex-wrap: wrap;
+        .checkbox-and-icon-wrapper {
+          @include flexbox;
+          width: 36%;
+          margin: 1rem;
+          .label-wrapper {
+            width: 100%;
+            background: white;
+            border-radius: 26px;
+            padding: 7px 17px;
+            cursor: pointer;
+            margin: 0 10px;
+            box-shadow: 1px 1px 50px 4px rgba(184, 181, 181, 0.493);
+            background: white;
+            //box-shadow: 0px 1px 13px 3px #e9e7e7;
+            .icon-and-title-wrapper {
+              @include flexbox;
+            }
+            .icon-wrapper {
+              margin-right: 10px;
+              img{
+                max-height: 20px;
+              }
+              span {
+                color: $textBaseColor;
+              }
+            }
+          }
+        }
+      }
+      ////// baseColor
+      .start-chat-consult-btn-wraper {
+        button {
+          background: $baseColor;
+          color: white;
+        }
+      }
+      .custom-control.custom-radio {
+        margin-top: 8px;
+      }
+    }
+  }
+  //////////////////////////consultation
+  .consulting-specialist-section {
+    background: #ffeadb87;
+
+    .small-boxes-wrapper {
+      @include flexbox;
+      @include flexWrap;
+      justify-content: center;
+      .boxes-sm-bx{
+
+        width: calc((100%/6));
+        padding: 16px;
+        .nav-link{
+          padding:0;
+          color: #000;
+        }
+      }
+      .boxes-sm {
+        border-radius: 8px;
+        background-color: white;
+        text-align: center;
+        padding: 30px 3px;
+        .icon-wrapper {
+          img {
+            max-height: 30px;
+          }
+        }
+        &:hover {
+          opacity: 80%;
+        }
+        h5 {
+          font-size: 14px;
+          font-weight: 600;
+          font-size: 0.9rem;
+        }
+        & > * {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+  ////////our-recent-articles-section
+  .our-recent-articles-section {
+    .articles-wrapper {
+      @include flexbox;
+      @include flexWrap;
+      .article-box {
+        width: 32%;
+        margin: 0 0 0 2%;
+        position: relative;
+        &:first-child{
+          margin-left: 0;
+        }
+
+        .article-img {
+          height: 250px;
+          border-radius: 8px 8px 0 0;
+        }
+        //articles records
+        .articles-records-wrapper {
+          background-color: $colorWhite;
+          height: 35px;
+          max-width: 187px;
+          position: absolute;
+          top: 13rem;
+          left: 12px;
+          border-radius: 4px;
+          padding: 2px 13px;
+          @include flexbox;
+          align-items: center;
+          & > * {
+            padding: 9px 4px;
+          }
+          span {
+            font-size: 10px;
+            margin: 0px 3px;
+          }
+        }
+        .article-texts-wrapper {
+          padding: 7px 9px;
+          padding-bottom: 72px;
+          margin: 1rem 0;
+          
+          h4 {
+            margin: 1rem 0;
+            font-size: 20px;
+            font-weight: 600;
+          }
+          p{
+            font-size: 13px;
+            font-weight: 600;
+            color: #686868;
+            line-height: 25px;
+          }
+        }
+        //doctor
+        .doctor-details-wrapper {
+          @include flexbox;
+          margin: 10px 0;
+          display: flex;
+          justify-content: space-between;
+          position: absolute;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          border-top: solid 1px #dddddd54;
+          padding-top: 20px;
+          .about-doctor-wrapper {
+            @include flexbox;
+            padding: 5px 0px 0px 11px;
+            .doctor-name-position {
+              margin-left: 26px;
+              h6{
+                font-weight: 600;
+                font-size: 11px;
+              }
+              span{
+                font-size: 13px;
+              }
+            }
+            .doctor-dp-wrapper {
+              max-width: 60px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+        ////
+       
+      }
+    }
+  }
+
+   //last section question section
+  
+   .asked-question-section {
+    margin-bottom: 12rem;
+    .faq-img-wrapper {
+      display: flex;
+      .img-faq-sec {
+        position: relative;
+        .round-div {
+          // padding-left: 1rem;
+          // /* position: relative; */
+          // height: 300px;
+          // width: 300px;
+          // border-radius: 50%;
+          // background: linear-gradient(309deg, #f8a0ab9e, transparent);
+          // position: absolute;
+          // top: -1px;
+          // left: 6rem;
+          .img-wrapper {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            background: linear-gradient( 
+        309deg, #f8a0ab9e, transparent);
+            position: absolute;
+            top: -1px;
+            right:30%;
+            overflow: hidden;
+        
+            img {
+              max-height: 300px;
+            }
+          }
+        }
+      }
+      //accordion by material
+      .accordion-faq-wrapper {
+        padding: 0 1rem;
+      }
+      .cm-bx-faq {
+        width: 50%;
+      }
+    }
+    .css-1m4ljmh-MuiTypography-root {
+      width: 100%;
+      h4{
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    }
+    .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+      background-color: #fff;
+      box-shadow: none;
+      //border-bottom: solid #fbf9f96e;
+    }
+  }
+
+
+  .show-menu-container {
+    button {
+      background-color: rgba(255, 255, 255, 0);
+      border: none;
+    }
+  }

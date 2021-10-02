@@ -733,7 +733,7 @@ const Project = () => {
             </div>
           </div>
         </section>
-      </div>
+     
 
       {/* ask question section  */}
       <section className="asked-question-section">
@@ -753,12 +753,12 @@ const Project = () => {
                   </div>
                 
            </div>
-           <div className="accordion-faq-sec cm-bx-faq">
+           <div className="accordion-faq-wrapper cm-bx-faq">
            <ControlledAccordions/>
            </div>
         </div>
       </section>
-      
+      </div>
 
       {/* footer section last */}
       <footer className="footer">
