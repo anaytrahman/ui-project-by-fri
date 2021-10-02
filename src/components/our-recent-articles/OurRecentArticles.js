@@ -1,9 +1,9 @@
-import patient1 from "./../../images/patient1.jfif";
-import drMask from "./../../images/dr-mask.jfif";
-import drTest from "./../../images/dr-test.jfif";
-import drDp1 from "./../../images/dr-dp2.jfif";
-import drDp2 from "./../../images/doctor-dp.png";
-import doctor2 from "./../../images/doctor2.png";
+import patient1 from "assets/images/patient1.jfif";
+import drMask from "assets/images/dr-mask.jfif";
+import drTest from "assets/images/dr-test.jfif";
+import drDp1 from "assets/images/dr-dp2.jfif";
+import drDp2 from "assets/images/doctor-dp.png";
+import doctor2 from "assets/images/doctor2.png";
 const OurRecentArticles = () => {
   return (
     <>

@@ -1,7 +1,7 @@
-import doctorIcon from "./../../images/icons/doctor-icon.png";
-import privateIcon from "./../../images/icons/private-network.png";
-import millionIcon from "./../../images/icons/million.png";
-import chatSupport from "./../../images/icons/chat-support.png";
+import doctorIcon from "assets/images/icons/doctor-icon.png";
+import privateIcon from "assets/images/icons/private-network.png";
+import millionIcon from "assets/images/icons/million.png";
+import chatSupport from "assets/images/icons/chat-support.png";
 const TrustUs = () => {
   return (
     <>

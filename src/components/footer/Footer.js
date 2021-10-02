@@ -1,9 +1,8 @@
 import { NavLink } from "react-bootstrap";
-import googlePlay from "./../../images/google-olay-icon.png";
-import playstore from "./../../images/playstore.png";
-import appstore from "./../../images/appstore.png";
-import Logo from "../shared/Logo";
-import logoImg from "./../../images/hospital-logo.png";
+import playstore from "assets/images/playstore.png";
+import appstore from "assets/images/appstore.png";
+import logoImg from "assets/images/hospital-logo.png";
+
 const Footer = () => {
   return (
     <>

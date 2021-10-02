@@ -1,5 +1,5 @@
 import ControlledAccordions from "../accordion/Accordion";
-import drFaq from "./../../images/dr-faq.png";
+import drFaq from "assets/images/dr-faq.png";
 const AskedQuestion = () => {
   return (
     <>

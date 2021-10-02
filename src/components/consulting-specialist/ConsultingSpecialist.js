@@ -1,15 +1,15 @@
-import dermatology from "./../../images/icons/dermatology.png";
-import kidney from "./../../images/icons/kidney.png";
-import brain from "./../../images/icons/brain.png";
-import medicine from "./../../images/icons/medicine.png";
-import tooth from "./../../images/icons/tooth.png";
-import nose from "./../../images/icons/nose.png";
-import hiv from "./../../images/icons/hiv.png";
-import heart from "./../../images/icons/heart.png";
-import allergy from "./../../images/icons/allergy.png";
-import faceMask from "./../../images/icons/face-mask.png";
-import stomach from "./../../images/icons/stomach.png";
-import coronavirus from "./../../images/icons/coronavirus.png";
+import dermatology from "assets/images/icons/dermatology.png";
+import kidney from "assets/images/icons/kidney.png";
+import brain from "assets/images/icons/brain.png";
+import medicine from "assets/images/icons/medicine.png";
+import tooth from "assets/images/icons/tooth.png";
+import nose from "assets/images/icons/nose.png";
+import hiv from "assets/images/icons/hiv.png";
+import heart from "assets/images/icons/heart.png";
+import allergy from "assets/images/icons/allergy.png";
+import faceMask from "assets/images/icons/face-mask.png";
+import stomach from "assets/images/icons/stomach.png";
+import coronavirus from "assets/images/icons/coronavirus.png";
 import { NavLink } from "react-bootstrap";
 
 const ConsultingSpecialist = () => {

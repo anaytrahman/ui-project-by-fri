@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import doctor from "./../../images/doctor.png";
-import onlineDot from "./../../images/online-dot.png";
-import slider from "./../../images/banner.jpg";
+import doctor from "assets/images/doctor.png";
+import onlineDot from "assets/images/online-dot.png";
+import slider from "assets/images/banner.jpg";
 
 const Dashboard=()=>{
     return(

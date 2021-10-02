@@ -1,11 +1,11 @@
-import doctor2 from "./../../images/doctor2.png";
+import doctor2 from "assets/images/doctor2.png";
 //chat
-import person1 from "./../../images/man1.jpg";
-import doctorDp from "./../../images/doctor-dp.png";
-import chat from "./../../images/icons/chat.png";
-import query from "./../../images/icons/query.png";
-import phonecall from "./../../images/icons/phone-call.png";
-import videoCall from "./../../images/icons/video-call.png";
+import person1 from "assets/images/man1.jpg";
+import doctorDp from "assets/images/doctor-dp.png";
+import chat from "assets/images/icons/chat.png";
+import query from "assets/images/icons/query.png";
+import phonecall from "assets/images/icons/phone-call.png";
+import videoCall from "assets/images/icons/video-call.png";
 import { useEffect, useRef } from "react";
 
 const StartOnlineChat = () => {

@@ -1,7 +1,5 @@
 import { NavLink } from "react-bootstrap";
-import Logo from "../shared/Logo";
-import logoImg from "./../../images/hospital-logo.png";
-import menuBlue from "./../../images/icons/menuBlue.png";
+import logoImg from "assets/images/hospital-logo.png";
 
 const Header = () => {
      

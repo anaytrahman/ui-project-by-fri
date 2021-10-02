@@ -1,22 +1,22 @@
 import { Link, NavLink } from "react-router-dom";
-import doctor from "../images/doctor.png";
-import doctor2 from "../images/doctor2.png";
+import doctor from "assets/images/doctor.png";
+import doctor2 from "assets/images/doctor2.png";
 //chat
-import person1 from "../images/man1.jpg";
+import person1 from "assets/images/man1.jpg";
 
-import doctorDp from "../images/doctor-dp.png";
+import doctorDp from "assets/images/doctor-dp.png";
 //article section
-import patient1 from "../images/patient1.jfif";
-import drMask from "../images/dr-mask.jfif";
-import drTest from "../images/dr-test.jfif";
-import drDp1 from "../images/dr-dp2.jfif";
-import drDp2 from "../images/doctor-dp.png";
+import patient1 from "assets/images/patient1.jfif";
+import drMask from "assets/images/dr-mask.jfif";
+import drTest from "assets/images/dr-test.jfif";
+import drDp1 from "assets/images/dr-dp2.jfif";
+import drDp2 from "assets/images/doctor-dp.png";
 //dr faq
-import drFaq from "../images/dr-faq.png";
+import drFaq from "assets/images/dr-faq.png";
 //icon footer
-import googlePlay from "../images/google-olay-icon.png";
-import appleIcon from "../images/apple-icon.png";
-import onlineDot from "../images/online-dot.png";
+import googlePlay from "assets/images/google-olay-icon.png";
+import appleIcon from "assets/images/apple-icon.png";
+import onlineDot from "assets/images/online-dot.png";
 import ControlledAccordions from "../components/accordion/Accordion";
 const Project = () => {
   return (

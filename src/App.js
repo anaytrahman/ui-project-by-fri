@@ -1,6 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.scss";
-import "./styles/Responsive.scss";
 import AskedQuestion from "./components/asked-questions/AskedQuestion";
 import ConsultingSpecialist from "./components/consulting-specialist/ConsultingSpecialist";
 import Dashboard from "./components/dashboard/Dashboard";
