@@ -71,6 +71,10 @@ a {
 .container-docta {
   padding: 0px 50px;
 
+  @media screen and (max-width: 767px) {
+    padding: 0px 10px;
+  }
+
   .menubar {
     width: 66%;
   }

@@ -15,7 +15,7 @@
     font-size: 39px;
     font-weight: 600;
     line-height: 58px;
-}
+  }
   .header-dashboard-wrapper .header .menu-wrapper .menubar ul li {
     .nav-link {
       padding: 0.5rem 0.4rem;
@@ -96,7 +96,7 @@
   .footer .extra-stuff-wrapper {
     width: 33%;
   }
- 
+
   .dashboard-section .dr-image-wrapper .img-wrapper {
     overflow: hidden;
   }
@@ -126,17 +126,20 @@
         border-bottom: solid 1px #ddd;
       }
     }
-    &.show-menu{
-      display: block !important;   
+    &.show-menu {
+      display: block !important;
     }
   }
   .header .menu-wrapper .login-wrapper {
     display: flex;
     width: 47%;
   }
-  .our-recent-articles-section .articles-wrapper .article-box .articles-records-wrapper {
+  .our-recent-articles-section
+    .articles-wrapper
+    .article-box
+    .articles-records-wrapper {
     top: 22rem;
-}
+  }
   .our-recent-articles-section .articles-wrapper .article-box {
     width: 100%;
     margin: 0;
@@ -169,7 +172,7 @@
   }
 
   .header-dashboard-wrapper .header .menu-wrapper .login-wrapper {
-    justify-content: right;
+    justify-content: space-around;
     width: 100%;
   }
 
@@ -183,7 +186,7 @@
 @media only screen and (max-width: 768px) {
   .button {
     padding: 11px 12px;
-}
+  }
   .trust-us-section .boxes-wrapper .boxes {
     margin-bottom: 29px;
   }
@@ -216,6 +219,8 @@
   }
   .dashboard-section {
     flex-wrap: wrap;
+    min-height: auto;
+    padding-bottom: 4rem;
   }
 
   .dashboard-section .details-action-container {
@@ -228,7 +233,7 @@
   }
 
   .dashboard-section img {
-    max-height: none;
+    position: static;
   }
   .header-dashboard-wrapper .header .menu-wrapper > * {
     margin: 0;
@@ -298,7 +303,7 @@
 @media only screen and (max-width: 480px) {
   .dashboard-section .details-action-container {
     top: 16px;
-}
+  }
   .consulting-specialist-section .small-boxes-wrapper .boxes-sm-bx {
     width: 100%;
   }
@@ -317,10 +322,7 @@
   .header-dashboard-wrapper .header .menu-wrapper {
     display: block;
   }
-  .header-dashboard-wrapper .header .menu-wrapper .login-wrapper {
-    justify-content: left;
-    width: 100%;
-  }
+
   .header-dashboard-wrapper .header .site-logo-container img {
     width: 25%;
     max-height: 32px;
@@ -348,12 +350,15 @@
     .about-doctor-wrapper {
     width: 100%;
   }
-  .asked-question-section .faq-img-wrapper .img-faq-sec .round-div .img-wrapper {
+  .asked-question-section
+    .faq-img-wrapper
+    .img-faq-sec
+    .round-div
+    .img-wrapper {
     height: 250px;
-   
-}
-.footer .logo-wrapper img {
-  max-height: 63px;
-  margin: 12px 0;
-}
+  }
+  .footer .logo-wrapper img {
+    max-height: 63px;
+    margin: 12px 0;
+  }
 }
