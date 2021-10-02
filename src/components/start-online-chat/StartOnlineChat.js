@@ -6,10 +6,8 @@ import chat from "assets/images/icons/chat.png";
 import query from "assets/images/icons/query.png";
 import phonecall from "assets/images/icons/phone-call.png";
 import videoCall from "assets/images/icons/video-call.png";
-import { useEffect, useRef } from "react";
 
 const StartOnlineChat = () => {
- 
 
   return (
     <>
@@ -80,7 +78,7 @@ const StartOnlineChat = () => {
                   </div>
                   <label
                     className="custom-control-label label-wrapper"
-                    for="customRadio"
+                    htmlFor="customRadio"
                   >
                     <div className="icon-and-title-wrapper">
                       <div className="icon-wrapper">
@@ -106,7 +104,7 @@ const StartOnlineChat = () => {
                   </div>
                   <label
                     className="custom-control-label label-wrapper"
-                    for="chat"
+                    htmlFor="chat"
                   >
                     <div className="icon-and-title-wrapper">
                       <div className="icon-wrapper">
@@ -134,7 +132,7 @@ const StartOnlineChat = () => {
                   </div>
                   <label
                     className="custom-control-label label-wrapper"
-                    for="phone"
+                    htmlFor="phone"
                   >
                     <div className="icon-and-title-wrapper">
                                  <div className="icon-wrapper">
@@ -151,16 +149,16 @@ const StartOnlineChat = () => {
 
                 {/* fourth */}
                 <div className="checkbox-and-icon-wrapper">
-                  <div class="custom-control custom-radio">
+                  <div className="custom-control custom-radio">
                     <input
                       type="radio"
-                      class="custom-control-input"
+                      className="custom-control-input"
                       id="video"
                       name="example1"
                       value="customEx"
                     />
                   </div>
-                  <label class="custom-control-label label-wrapper" for="video">
+                  <label className="custom-control-label label-wrapper" htmlFor="video">
                     <div className="icon-and-title-wrapper">
                       <div className="icon-wrapper">
                       <div className="icon-wrapper">

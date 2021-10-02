@@ -3,9 +3,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
-import MinimizeIcon from '@mui/icons-material/Minimize';
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -22,13 +20,13 @@ export default function ControlledAccordions() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          <Typography component={'span'} sx={{ width: '33%', flexShrink: 0 }}>
            <h4>What does telemedicine mean?</h4>
           </Typography>
          
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
            <p>Remote medical services, diagnosing and treating patients without consulting  them in-person, is called telemedicine. Telemedicnine, also called online doctor visit</p>
           </Typography>
         </AccordionDetails>
@@ -39,12 +37,10 @@ export default function ControlledAccordions() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          <Typography component={'span'} sx={{ width: '33%', flexShrink: 0 }}>
               <h4> What is telemedicine used for?</h4>
           </Typography>
-          {/* <Typography sx={{ color: 'text.secondary' }}>
-            You are currently not an owner
-          </Typography> */}
+      
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -60,12 +56,10 @@ export default function ControlledAccordions() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          <Typography component={'span'} sx={{ width: '33%', flexShrink: 0 }}>
            <h4>What is equipment do you require for telemedicine?</h4>
           </Typography>
-          {/* <Typography sx={{ color: 'text.secondary' }}>
-            Filtering has been entirely disabled for whole web server
-          </Typography> */}
+
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -80,7 +74,7 @@ export default function ControlledAccordions() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          <Typography component={'span'} sx={{ width: '33%', flexShrink: 0 }}>
               <h4>What are the pros or advantages of  telemedicine?</h4>
           </Typography>
         </AccordionSummary>

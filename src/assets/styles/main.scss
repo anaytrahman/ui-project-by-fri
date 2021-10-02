@@ -1,7 +1,10 @@
+/* SASS Utils*/
+@import "./variables";
+@import "./mixins";
+
+
 @import "./component/flexbox.scss";
-@import "./component/variables.scss";
 @import "./component/button.scss";
-@import "./component/mixins.scss";
 @import "./layout/layout.scss";
 @import "./layout/header.scss";
 @import "./layout/footer.scss";

@@ -10,8 +10,6 @@ import allergy from "assets/images/icons/allergy.png";
 import faceMask from "assets/images/icons/face-mask.png";
 import stomach from "assets/images/icons/stomach.png";
 import coronavirus from "assets/images/icons/coronavirus.png";
-import { NavLink } from "react-bootstrap";
-
 const ConsultingSpecialist = () => {
   return (
     <>
@@ -31,7 +29,7 @@ const ConsultingSpecialist = () => {
             {/* boxes  */}
 
             <div className="boxes-sm-bx">
-              <NavLink>
+            
                 <div className="boxes-sm">
                   <div className="icon-wrapper">
                     <img src={dermatology} alt="icon" />
@@ -40,12 +38,12 @@ const ConsultingSpecialist = () => {
                     <h5>Internal Medicine</h5>
                   </div>
                 </div>
-              </NavLink>
+           
             </div>
 
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+          
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={kidney} alt="icon" />
@@ -54,11 +52,11 @@ const ConsultingSpecialist = () => {
                   <h5>Internal Medicine</h5>
                 </div>
               </div>
-              </NavLink>
+             
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+          
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={brain} alt="icon" />
@@ -67,11 +65,11 @@ const ConsultingSpecialist = () => {
                   <h5>Neurology</h5>
                 </div>
               </div>
-              </NavLink>
+             
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={medicine} alt="icon" />
@@ -80,11 +78,11 @@ const ConsultingSpecialist = () => {
                   <h5>General Medicine</h5>
                 </div>
               </div>
-              </NavLink>
+             
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={tooth} alt="icon" />
@@ -93,11 +91,11 @@ const ConsultingSpecialist = () => {
                   <h5>Dentisty</h5>
                 </div>
               </div>
-              </NavLink>
+             
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={nose} alt="icon" />
@@ -106,11 +104,11 @@ const ConsultingSpecialist = () => {
                   <h5>Otolaryngology</h5>
                 </div>
               </div>
-              </NavLink>
+             
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={hiv} alt="icon" />
@@ -119,10 +117,10 @@ const ConsultingSpecialist = () => {
                   <h5>Hiv/Aids</h5>
                 </div>
               </div>
-              </NavLink>
+             
             </div>
             <div className="boxes-sm-bx">
-            <NavLink>
+          
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={heart} alt="icon" />
@@ -131,11 +129,11 @@ const ConsultingSpecialist = () => {
                   <h5>Urology</h5>
                 </div>
               </div>
-              </NavLink>
+             
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={allergy} alt="icon" />
@@ -144,11 +142,11 @@ const ConsultingSpecialist = () => {
                   <h5>Allergy</h5>
                 </div>
               </div>
-              </NavLink>
+              
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={faceMask} alt="icon" />
@@ -157,11 +155,11 @@ const ConsultingSpecialist = () => {
                   <h5>Piediatric</h5>
                 </div>
               </div>
-              </NavLink>
+              
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={stomach} alt="icon" />
@@ -170,11 +168,11 @@ const ConsultingSpecialist = () => {
                   <h5>Gastroenterology</h5>
                 </div>
               </div>
-              </NavLink>
+              
             </div>
             {/* boxes  */}
             <div className="boxes-sm-bx">
-            <NavLink>
+           
               <div className="boxes-sm">
                 <div className="icon-wrapper">
                   <img src={coronavirus} alt="icon" />
@@ -183,7 +181,6 @@ const ConsultingSpecialist = () => {
                   <h5>Infectous Disease</h5>
                 </div>
               </div>
-              </NavLink>
             </div>
 
             {/* boxes  */}

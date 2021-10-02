@@ -1,128 +1,120 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-  
-.text-right{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f8f5f561;
+  font-family: $base-font;
+}
+
+.text {
+  &-right {
     text-align: right;
-}
-.text-center{
+  }
+
+  &-center {
     text-align: center;
+  }
 }
-a.disabled {
+
+a {
+  text-decoration: none;
+
+  &.disabled {
     pointer-events: none;
     cursor: not-allowed;
-    opacity: 0.4; 
- }
+    opacity: 0.4;
+  }
+}
 
-  a {
-    text-decoration: none;
-  }
-  
-  body {
-    background: #f8f5f561;
-    font-family: $base-font;
-  }
-  
-  .section-mrg-bottom{
-    margin-bottom: 38px;
-  }
-  
-  .btns:hover {
-    opacity: 80%;
-  }
-  
-  .button {
-    padding: 12px 25px;
-    border: none;
-    border-radius: 24px;
-    margin: 9px 11px 2px 0px;
-    
 
-    &.button-secondary {
-      background: #ffffff;
-      box-shadow: 1px 4px 7px -1px #ccc;
-      color: $baseColor;
-      font-weight: 700;
-    }
-  }
-  .btnBase {
-    background: $baseColor;
-    color: $colorWhite;
-  }
-  .loginBtn {
-    padding: 4px 18px;
-    margin: 1px 1px 0 1px;
-    border: none;
-    border-radius: 13px;
-    background: $colorWhite;
-    margin-left: 18px;
-  }
-  
-  .main-container {
-    max-width: 1600px;
-    margin: auto;
-    /////prent
-    .project-container {
-    }
-  }
- 
-   .container-docta{
-       padding: 0px 50px;
 
-       .menubar {
-        width: 66%;
-       }
-   }
-  
-  //for reuse
-  .div-align {
-    margin: 0 auto;
+.section-mrg-bottom {
+  margin-bottom: 38px;
+}
+
+.btns:hover {
+  opacity: 80%;
+}
+
+.button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 24px;
+  margin: 9px 11px 2px 0px;
+
+  &.button-secondary {
+    background: #ffffff;
+    box-shadow: 1px 4px 7px -1px #ccc;
+    color: $baseColor;
+    font-weight: 700;
   }
- 
-  
-  .padding-t-b {
-    padding: 3rem 0;
+}
+.btnBase {
+  background: $baseColor;
+  color: $colorWhite;
+}
+.loginBtn {
+  padding: 4px 18px;
+  margin: 1px 1px 0 1px;
+  border: none;
+  border-radius: 13px;
+  background: $colorWhite;
+  margin-left: 18px;
+}
+
+.main-container {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.container-docta {
+  padding: 0px 50px;
+
+  .menubar {
+    width: 66%;
   }
-  //for div align
-  .about-text-wrapper-all {
-    width: calc(100%/2);
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 3rem;
+}
+
+//for reuse
+.div-align {
+  margin: 0 auto;
+}
+
+.padding-t-b {
+  padding: 3rem 0;
+}
+//for div align
+.about-text-wrapper-all {
+  width: calc(100% / 2);
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.dp-wrapper-all {
+  //max-width: 58px;
+  img {
+    border-radius: 51%;
+    height: 53px;
   }
-  
-  .dp-wrapper-all {
-    //max-width: 58px;
-    img {
-      border-radius: 51%;
-      height: 53px;
-    }
-  }
-  
-  .color-white {
-    color: white;
-  }
-  .color-red {
-    color: red;
-  }
-  
-  .all-type-dr {
-    border-radius: 5px;
-    border: none;
-    margin: 7px;
-    padding: 4px 4px;
-    font-size: 12px;
-  }
-  
-  .bg-grey {
-    background-color: #b6b6b691;
-  }
-  
- 
-  
- 
+}
+
+.color-white {
+  color: white;
+}
+.color-red {
+  color: red;
+}
+
+.all-type-dr {
+  border-radius: 5px;
+  border: none;
+  margin: 7px;
+  padding: 4px 4px;
+  font-size: 12px;
+}
+
+.bg-grey {
+  background-color: #b6b6b691;
+}

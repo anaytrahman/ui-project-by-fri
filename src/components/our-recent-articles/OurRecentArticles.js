@@ -38,21 +38,21 @@ const OurRecentArticles = () => {
                   <div className="date-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-calendar-date-fill"></i>
+                      <i className="bi bi-calendar-date-fill"></i>
                     </span>
                     <span>15 June</span>
                   </div>
                   <div className="comment-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-chat-dots"></i>
+                      <i className="bi bi-chat-dots"></i>
                     </span>
                     <span>54</span>
                   </div>
                   <div className="views-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-eye-fill"></i>
+                      <i className="bi bi-eye-fill"></i>
                     </span>
                     <span>1.9K</span>
                   </div>
@@ -84,7 +84,7 @@ const OurRecentArticles = () => {
                 <div className="show-menu-container">
                   <div className="three-dots-menu">
                     <button className="btns">
-                      <i class="bi bi-three-dots-vertical"></i>
+                      <i className="bi bi-three-dots-vertical"></i>
                     </button>
                   </div>
                 </div>
@@ -111,21 +111,21 @@ const OurRecentArticles = () => {
                   <div className="date-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-calendar-date-fill"></i>
+                      <i className="bi bi-calendar-date-fill"></i>
                     </span>
                     <span>15 June</span>
                   </div>
                   <div className="comment-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-chat-dots"></i>
+                      <i className="bi bi-chat-dots"></i>
                     </span>
                     <span>54</span>
                   </div>
                   <div className="views-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-eye-fill"></i>
+                      <i className="bi bi-eye-fill"></i>
                     </span>
                     <span>1.9K</span>
                   </div>
@@ -157,7 +157,7 @@ const OurRecentArticles = () => {
                 <div className="show-menu-container">
                   <div className="three-dots-menu">
                     <button className="btns">
-                      <i class="bi bi-three-dots-vertical"></i>
+                      <i className="bi bi-three-dots-vertical"></i>
                     </button>
                   </div>
                 </div>
@@ -184,21 +184,21 @@ const OurRecentArticles = () => {
                   <div className="date-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-calendar-date-fill"></i>
+                      <i className="bi bi-calendar-date-fill"></i>
                     </span>
                     <span>15 June</span>
                   </div>
                   <div className="comment-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-chat-dots"></i>
+                      <i className="bi bi-chat-dots"></i>
                     </span>
                     <span>54</span>
                   </div>
                   <div className="views-wrapper">
                     <span>
                       {" "}
-                      <i class="bi bi-eye-fill"></i>
+                      <i className="bi bi-eye-fill"></i>
                     </span>
                     <span>1.9K</span>
                   </div>
@@ -234,7 +234,7 @@ const OurRecentArticles = () => {
                 <div className="show-menu-container">
                   <div className="three-dots-menu">
                     <button className="btns">
-                      <i class="bi bi-three-dots-vertical"></i>
+                      <i className="bi bi-three-dots-vertical"></i>
                     </button>
                   </div>
                 </div>

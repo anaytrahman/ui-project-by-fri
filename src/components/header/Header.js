@@ -1,4 +1,4 @@
-import { NavLink } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import logoImg from "assets/images/hospital-logo.png";
 
 const Header = () => {

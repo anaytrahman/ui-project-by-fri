@@ -1,4 +1,4 @@
-import { NavLink } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import playstore from "assets/images/playstore.png";
 import appstore from "assets/images/appstore.png";
 import logoImg from "assets/images/hospital-logo.png";
@@ -26,13 +26,13 @@ const Footer = () => {
               </div>
               {/* button for apps store */}
               <div className="app-store-wrapper">
-                <NavLink to="">
+                <NavLink to="/">
                   <div className="apps-btn-wrapper applelogo">
                     <img src={appstore} alt="google-icon" />
                   </div>
                 </NavLink>
                 {/* google play */}
-                <NavLink to="">
+                <NavLink to="/">
                   <div className="apps-btn-wrapper google-playlogo">
                     <img src={playstore} alt="google-icon" />
                   </div>
