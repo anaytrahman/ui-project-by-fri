@@ -53,9 +53,11 @@
         }
         .login-wrapper {
           @include flexbox;
+          align-items: center;
           .number-wrapper {
             color: #8080808c;
             font-size: 0.9rem;
+            margin-right: 15px;
             span{
               display: block;
               &.mb-number{

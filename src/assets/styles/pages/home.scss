@@ -1,8 +1,23 @@
+.section{
+  margin: 1rem 0;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+
+.text-clr{
+  color: #4a3170;
+}
+.color-grey{
+  color: $colorGrey;
+}
 .dashboard-section {
   position: relative;
+  min-height: 500px;
     img{
       width:100%;
-      max-height: calc(100vh - 120px);
+      position: absolute;
+      height: 100%;
     }
     .details-action-container {
       position: absolute;
@@ -15,10 +30,12 @@
       border-radius: 9px;
       .details-action-wrapper {
         justify-content: space-around;
-        padding: 0 1rem;
+        padding: 0 0rem;
         margin: 0 auto;
+        margin-left: 3rem;
+
         .video-call {
-          color: $baseColor;
+         // color: $baseColor;
           text-decoration: underline !important;
         }
         h2 {
@@ -141,7 +158,8 @@
     }
     //cunsult doctor icon label
     .consult-doctor-details-wrapper {
-      width: 40%;
+      width: 34%;
+     
       .input-action-wrapper {
         @include flexbox;
         flex-wrap: wrap;
@@ -158,7 +176,6 @@
             margin: 0 10px;
             box-shadow: 1px 1px 50px 4px rgba(184, 181, 181, 0.493);
             background: white;
-            //box-shadow: 0px 1px 13px 3px #e9e7e7;
             .icon-and-title-wrapper {
               @include flexbox;
             }
@@ -229,20 +246,27 @@
   }
   ////////our-recent-articles-section
   .our-recent-articles-section {
+    margin-top: 10rem  ;
     .articles-wrapper {
       @include flexbox;
       @include flexWrap;
+      justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
       .article-box {
         width: 32%;
         margin: 0 0 0 2%;
         position: relative;
+        &:hover{
+          color: $baseColor;
+        }
         &:first-child{
           margin-left: 0;
         }
 
         .article-img {
-          height: 250px;
-          border-radius: 8px 8px 0 0;
+          height: 350px;
+          border-radius: 8px 8px 0 
         }
         //articles records
         .articles-records-wrapper {
@@ -250,7 +274,7 @@
           height: 35px;
           max-width: 187px;
           position: absolute;
-          top: 13rem;
+          top: 19rem;
           left: 12px;
           border-radius: 4px;
           padding: 2px 13px;
@@ -295,15 +319,18 @@
           padding-top: 20px;
           .about-doctor-wrapper {
             @include flexbox;
+            align-items: center;
             padding: 5px 0px 0px 11px;
             .doctor-name-position {
               margin-left: 26px;
               h6{
                 font-weight: 600;
                 font-size: 11px;
+               
               }
               span{
                 font-size: 13px;
+                @extend .color-grey, .font-weight-600
               }
             }
             .doctor-dp-wrapper {
@@ -325,20 +352,15 @@
   
    .asked-question-section {
     margin-bottom: 12rem;
+    margin-top: 5rem;
+    h2{
+      font-weight: 700;
+    }
     .faq-img-wrapper {
       display: flex;
       .img-faq-sec {
         position: relative;
         .round-div {
-          // padding-left: 1rem;
-          // /* position: relative; */
-          // height: 300px;
-          // width: 300px;
-          // border-radius: 50%;
-          // background: linear-gradient(309deg, #f8a0ab9e, transparent);
-          // position: absolute;
-          // top: -1px;
-          // left: 6rem;
           .img-wrapper {
             height: 300px;
             width: 300px;
@@ -354,6 +376,7 @@
               max-height: 300px;
             }
           }
+          
         }
       }
       //accordion by material
@@ -385,3 +408,4 @@
       border: none;
     }
   }
+

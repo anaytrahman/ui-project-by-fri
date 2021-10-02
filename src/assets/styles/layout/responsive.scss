@@ -11,6 +11,11 @@
   .header-dashboard-wrapper .header .menu-wrapper .menubar ul li {
     margin: 0px 10px;
   }
+  .dashboard-section .details-action-container .details-action-wrapper h2 {
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 58px;
+}
   .header-dashboard-wrapper .header .menu-wrapper .menubar ul li {
     .nav-link {
       padding: 0.5rem 0.4rem;
@@ -129,6 +134,9 @@
     display: flex;
     width: 47%;
   }
+  .our-recent-articles-section .articles-wrapper .article-box .articles-records-wrapper {
+    top: 22rem;
+}
   .our-recent-articles-section .articles-wrapper .article-box {
     width: 100%;
     margin: 0;
@@ -173,6 +181,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .button {
+    padding: 11px 12px;
+}
   .trust-us-section .boxes-wrapper .boxes {
     margin-bottom: 29px;
   }
@@ -294,7 +305,7 @@
   .dashboard-section .details-action-container .details-action-wrapper {
     font-size: 12px;
   }
-  .mybtn {
+  .button {
     padding: 4px 21px;
 
     margin: 5px 0px 2px 0px;

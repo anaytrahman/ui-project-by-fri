@@ -57,7 +57,7 @@ const StartOnlineChat = () => {
             <div className="consult-doctor-details-wrapper">
               <div className="about-online-chat-wrapper">
                 <h2> Start an online chat consulation with a doctor.</h2>
-                <p>
+                <p className="color-grey">
                   Post unlimited follow-ups to the doctor for the next 50 or 100
                   hourse by picking one of our
                   <strong> #cliniq50hrs </strong> or
@@ -177,7 +177,7 @@ const StartOnlineChat = () => {
               {/* button  */}
 
               <div className="start-chat-consult-btn-wraper">
-                <button className="mybtn btns">Start Chat Consulation</button>
+                <button className="button btns">Start Chat Consulation</button>
               </div>
             </div>
           </div>

@@ -35,11 +35,20 @@ a.disabled {
   .btns:hover {
     opacity: 80%;
   }
-  .mybtn {
+  
+  .button {
     padding: 12px 25px;
     border: none;
     border-radius: 24px;
     margin: 9px 11px 2px 0px;
+    
+
+    &.button-secondary {
+      background: #ffffff;
+      box-shadow: 1px 4px 7px -1px #ccc;
+      color: $baseColor;
+      font-weight: 700;
+    }
   }
   .btnBase {
     background: $baseColor;
@@ -64,6 +73,10 @@ a.disabled {
  
    .container-docta{
        padding: 0px 50px;
+
+       .menubar {
+        width: 66%;
+       }
    }
   
   //for reuse

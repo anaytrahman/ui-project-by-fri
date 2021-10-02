@@ -150,8 +150,8 @@ const OurRecentArticles = () => {
                   </div>
                   {/* NAME AND position */}
                   <div className="doctor-name-position">
-                    <h6>Dr. Muhammad Ibrahim </h6>
-                    <span>Neurologist</span>
+                    <h6 className="">Dr. Muhammad Ibrahim </h6>
+                    <span className="">Neurologist</span>
                   </div>
                 </div>
                 <div className="show-menu-container">
@@ -242,7 +242,7 @@ const OurRecentArticles = () => {
             </div>
             {/* buttons for more articles */}
             <div className="read-more-articles-wrapper about-text-wrapper-all mt-5">
-              <button className="mybtn btnBase btns">Read More Articles</button>
+              <button className="button btnBase btns">Read More Articles</button>
             </div>
           </div>
         </div>

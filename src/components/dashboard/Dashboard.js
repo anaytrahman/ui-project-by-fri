@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import doctor from "assets/images/doctor.png";
 import onlineDot from "assets/images/online-dot.png";
-import slider from "assets/images/banner.jpg";
+import slider from "assets/images/banner-home.png";
 
 const Dashboard=()=>{
     return(
@@ -23,10 +23,10 @@ const Dashboard=()=>{
                   </p>
                 </div>
                 <div className="button-wrapper">
-                  <button className="mybtn btnBase btns">
+                  <button className="button btnBase btns">
                     Ask A Doctor online
                   </button>
-                  <button className="mybtn btnsecond btns">
+                  <button className="button button-secondary btns">
                     Unlimited Chat
                   </button>
                 </div>

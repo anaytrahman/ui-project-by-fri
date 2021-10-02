@@ -19,7 +19,7 @@ const ConsultingSpecialist = () => {
         <div className="container-docta">
           <div className="about-text-wrapper about-text-wrapper-all">
             <h2>Our consulting specialities </h2>
-            <p>
+            <p className="color-grey">
               Ask a doctor online and quick medical advice for your health
               queries. Our medical panel consists of over 3500+ doctors from 80+
               specialities.

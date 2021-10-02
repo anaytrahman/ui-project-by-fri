@@ -82,10 +82,10 @@ const Project = () => {
                   </p>
                 </div>
                 <div className="button-wrapper">
-                  <button className="mybtn btnBase btns">
+                  <button className="button btnBase btns">
                     Ask A Doctor online
                   </button>
-                  <button className="mybtn btnsecond btns">
+                  <button className="button button-secondary btns">
                     Unlimited Chat
                   </button>
                 </div>
@@ -342,7 +342,7 @@ const Project = () => {
             {/* button  */}
 
             <div className="start-chat-consult-btn-wraper">
-              <button className="mybtn btns">Start Chat Consulation</button>
+              <button className="button btns">Start Chat Consulation</button>
             </div>
           </div>
         </section>
@@ -729,7 +729,7 @@ const Project = () => {
             </div>
             {/* buttons for more articles */}
             <div className="read-more-articles-wrapper about-text-wrapper-all mt-5">
-              <button className="mybtn btnBase btns">Read More Articles</button>
+              <button className="button btnBase btns">Read More Articles</button>
             </div>
           </div>
         </section>

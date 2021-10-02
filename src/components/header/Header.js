@@ -46,11 +46,11 @@ const Header = () => {
             <div className="login-wrapper">
               <div className="number-wrapper">
                 <span>Call Now</span>
-                <span className="mb-number">(603)-555-0123</span>
+                <span className="mb-number font-weight-600 text-clr">(603)-555-0123</span>
                 {/* <NavLink href="tel:(603)-555-0123"></NavLink> */}
               </div>
               <div className="login-btn-wrapper">
-                <button onClick={loginBtnHandler} className="loginBtn btnsecond btns"> Login</button>
+                <button onClick={loginBtnHandler} className="button button-secondary btns"> Login</button>
               </div>
               <div className="login-btn-wrapper menu-icon-hide">
                 <button

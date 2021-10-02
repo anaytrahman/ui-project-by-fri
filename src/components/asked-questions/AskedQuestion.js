@@ -7,7 +7,7 @@ const AskedQuestion = () => {
         <div className="container-docta">
           <div className="about-text-wrapper about-text-wrapper-all">
             <h2>Frequently Asked Questions </h2>
-            <p>
+            <p className="color-grey">
               Artilce is a part or segment of something joined to other parts,
               or, in combination, forming a structured set.
             </p>
