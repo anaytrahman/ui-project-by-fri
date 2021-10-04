@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ui-project-by-fri/static/css/main.d6283db9.chunk.css",
-    "main.js": "/ui-project-by-fri/static/js/main.e2d3495d.chunk.js",
-    "main.js.map": "/ui-project-by-fri/static/js/main.e2d3495d.chunk.js.map",
+    "main.css": "/ui-project-by-fri/static/css/main.9c76dbd0.chunk.css",
+    "main.js": "/ui-project-by-fri/static/js/main.8552212b.chunk.js",
+    "main.js.map": "/ui-project-by-fri/static/js/main.8552212b.chunk.js.map",
     "runtime-main.js": "/ui-project-by-fri/static/js/runtime-main.d5319e07.js",
     "runtime-main.js.map": "/ui-project-by-fri/static/js/runtime-main.d5319e07.js.map",
     "static/js/2.a8ded4cc.chunk.js": "/ui-project-by-fri/static/js/2.a8ded4cc.chunk.js",
     "static/js/2.a8ded4cc.chunk.js.map": "/ui-project-by-fri/static/js/2.a8ded4cc.chunk.js.map",
     "index.html": "/ui-project-by-fri/index.html",
-    "static/css/main.d6283db9.chunk.css.map": "/ui-project-by-fri/static/css/main.d6283db9.chunk.css.map",
+    "static/css/main.9c76dbd0.chunk.css.map": "/ui-project-by-fri/static/css/main.9c76dbd0.chunk.css.map",
     "static/js/2.a8ded4cc.chunk.js.LICENSE.txt": "/ui-project-by-fri/static/js/2.a8ded4cc.chunk.js.LICENSE.txt",
     "static/media/allergy.96e4b9e5.png": "/ui-project-by-fri/static/media/allergy.96e4b9e5.png",
     "static/media/appstore.4d44ee0c.png": "/ui-project-by-fri/static/media/appstore.4d44ee0c.png",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.d5319e07.js",
     "static/js/2.a8ded4cc.chunk.js",
-    "static/css/main.d6283db9.chunk.css",
-    "static/js/main.e2d3495d.chunk.js"
+    "static/css/main.9c76dbd0.chunk.css",
+    "static/js/main.8552212b.chunk.js"
   ]
 }
