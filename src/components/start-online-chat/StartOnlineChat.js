@@ -8,7 +8,6 @@ import phonecall from "assets/images/icons/phone-call.png";
 import videoCall from "assets/images/icons/video-call.png";
 
 const StartOnlineChat = () => {
-
   return (
     <>
       {/* start online chat section */}
@@ -67,22 +66,22 @@ const StartOnlineChat = () => {
               {/* for checkbox and icon  */}
               <div className="input-action-wrapper">
                 <div className="checkbox-and-icon-wrapper">
-                  <div className="custom-control custom-radio">
+                  <div>
                     <input
                       type="radio"
-                      className="custom-control-input"
-                      id="customRadio"
-                      name="example1"
-                      value="customEx"
+                      id="query"
+                      value="query"
+                      
+                      name="select-type"
                     />
                   </div>
                   <label
                     className="custom-control-label label-wrapper"
-                    htmlFor="customRadio"
+                    htmlFor="query"
                   >
                     <div className="icon-and-title-wrapper">
                       <div className="icon-wrapper">
-                            <img src={query} alt="icon"/>
+                        <img src={query} alt="icon" />
                       </div>
                       <div className="">
                         <span> Query</span>
@@ -92,15 +91,8 @@ const StartOnlineChat = () => {
                 </div>
                 {/* second  */}
                 <div className="checkbox-and-icon-wrapper">
-                  <div className="custom-control custom-radio">
-                    <input
-                      type="radio"
-                      className="custom-control-input"
-                      id="chat"
-                      name="example1"
-                      value="customEx"
-                      defaultChecked
-                    />
+                  <div>
+                    <input type="radio" id="chat" value="Chat"  name="select-type" defaultChecked/>
                   </div>
                   <label
                     className="custom-control-label label-wrapper"
@@ -108,9 +100,7 @@ const StartOnlineChat = () => {
                   >
                     <div className="icon-and-title-wrapper">
                       <div className="icon-wrapper">
-                      <div className="icon-wrapper">
-                            <img src={chat} alt="icon"/>
-                      </div>
+                        <img src={chat} alt="icon" />
                       </div>
                       <div className="">
                         <span> Chat</span>
@@ -118,16 +108,15 @@ const StartOnlineChat = () => {
                     </div>
                   </label>
                 </div>
-
                 {/* third  */}
                 <div className="checkbox-and-icon-wrapper">
-                  <div className="custom-control custom-radio">
+                  <div>
                     <input
                       type="radio"
-                      className="custom-control-input"
                       id="phone"
-                      name="example1"
-                      value="customEx"
+                      value="query"
+                     
+                      name="select-type"
                     />
                   </div>
                   <label
@@ -135,10 +124,8 @@ const StartOnlineChat = () => {
                     htmlFor="phone"
                   >
                     <div className="icon-and-title-wrapper">
-                                 <div className="icon-wrapper">
-                    <div className="icon-wrapper">
-                            <img src={phonecall} alt="icon"/>
-                      </div>
+                      <div className="icon-wrapper">
+                        <img src={phonecall} alt="icon" />
                       </div>
                       <div className="">
                         <span> Phone</span>
@@ -146,24 +133,18 @@ const StartOnlineChat = () => {
                     </div>
                   </label>
                 </div>
-
                 {/* fourth */}
                 <div className="checkbox-and-icon-wrapper">
-                  <div className="custom-control custom-radio">
-                    <input
-                      type="radio"
-                      className="custom-control-input"
-                      id="video"
-                      name="example1"
-                      value="customEx"
-                    />
+                  <div>
+                    <input type="radio" id="video" value="query"  name="select-type"/>
                   </div>
-                  <label className="custom-control-label label-wrapper" htmlFor="video">
+                  <label
+                    className="custom-control-label label-wrapper"
+                    htmlFor="video"
+                  >
                     <div className="icon-and-title-wrapper">
                       <div className="icon-wrapper">
-                      <div className="icon-wrapper">
-                            <img src={videoCall} alt="icon"/>
-                      </div>
+                        <img src={videoCall} alt="icon" />
                       </div>
                       <div className="">
                         <span> Video</span>
